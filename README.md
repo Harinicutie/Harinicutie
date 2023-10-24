@@ -1,10 +1,14 @@
-- 👋 Hi, I’m @Harinicutie
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+#1.1 Implement a recursie function to calculate the factorial of a given number.
 
-<!---
-Harinicutie/Harinicutie is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+
+def fact_rec(n):
+  if n == 0 or n == 1:
+    return 1
+  else:
+    return n * fact_rec(n - 1)
+
+
+number = 2
+res = fact_rec(number)
+
+print("The factorial of {} is {}.".format(number, res))
