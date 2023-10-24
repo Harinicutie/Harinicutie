@@ -11,4 +11,4 @@ def fact_rec(n):
 number = 2
 res = fact_rec(number)
 
-print("The factorial of {} is {}.".format(number, res))
+print("The factorial of {} is {}.".format(number, res)) 
